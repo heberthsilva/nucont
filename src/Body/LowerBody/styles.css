@@ -1,0 +1,49 @@
+.header-1 {
+    position: absolute;
+    width: 1464px;
+    height: 587px;
+    left: -22px;
+    top: -6px;
+}
+
+.title {
+    position: absolute;
+    width: 583px;
+    height: 35px;
+    left: 268px;
+    top: 130px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    color: #FFE200;
+}
+
+.subtitle {
+    position: absolute;
+    width: 534px;
+    height: 132px;
+    left: 268px;
+    top: 203px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.guest {
+    position: absolute;
+    width: 273px;
+    height: 17px;
+    left: 268px;
+    top: 460px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
