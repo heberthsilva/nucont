@@ -1,49 +1,76 @@
-.header-1 {
+.title_low_1 {
     position: absolute;
-    width: 1464px;
-    height: 587px;
-    left: -22px;
-    top: -6px;
-}
-
-.title {
-    position: absolute;
-    width: 583px;
+    width: 564px;
     height: 35px;
-    left: 268px;
-    top: 130px;
+    left: 243px;
+    top: 966px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 29px;
     line-height: 35px;
-    color: #FFE200;
+    color: #063254;
 }
 
-.subtitle {
+.title_low_2 {
     position: absolute;
-    width: 534px;
-    height: 132px;
-    left: 268px;
-    top: 203px;
+    width: 564px;
+    height: 35px;
+    left: 243px;
+    top: 1260px;
     font-family: Montserrat;
     font-style: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    color: #063254;
 }
 
-.guest {
+.ul_low {
     position: absolute;
-    width: 273px;
-    height: 17px;
-    left: 268px;
-    top: 460px;
+    left: 243px;
+    top: 1038px;
+    line-height: 22px;
+    line-height: 45px;
+    list-style-image: url('elipse.png');
+    width: 950px;
+}
+
+.ul_low2 {
+    position: absolute;
+    left: 243px;
+    top: 1332px;
+    line-height: 22px;
+    line-height: 45px;
+    list-style-image: url('elipse.png');
+    width: 950px;
+}
+
+.li_low {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: #FFFFFF;
+    font-size: 18px;
+    color: #063254;
+    vertical-align: text-top;
+}
+
+.p_low {
+    text-align: center;
+    background-image: url("group1.svg");
+    position: absolute;
+    width: 635.64px;
+    height: 4px;
+    left: 402.68px;
+    top: 1214px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.p_low2 {
+    position: absolute;
+    width: 519px;
+    height: 3.27px;
+    left: 461px;
+    top: 1596px;
+    background-image: url("group1.svg");
 }
