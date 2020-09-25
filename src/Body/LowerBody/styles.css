@@ -26,6 +26,34 @@
     color: #063254;
 }
 
+.title_low_3 {
+    position: absolute;
+    width: 441px;
+    height: 35px;
+    left: 500px;
+    top: 1625px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    color: #FFB700;
+}
+
+.title_low_4 {
+    position: absolute;
+    width: 389px;
+    height: 35px;
+    left: 515px;
+    top: 2554px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 35px;
+    color: #FFB700;
+}
+
 .ul_low {
     position: absolute;
     left: 243px;
@@ -73,4 +101,77 @@
     left: 461px;
     top: 1596px;
     background-image: url("group1.svg");
+}
+
+.p_low3 {
+    position: absolute;
+    width: 519px;
+    height: 3.27px;
+    left: 461px;
+    top: 2137px;
+    background-image: url("group1.svg");
+}
+
+.p_low4 {
+    position: absolute;
+    width: 519px;
+    height: 3.27px;
+    left: 461px;
+    top: 2525px;
+    background-image: url("group1.svg");
+}
+
+.page {
+    width: 1400px;
+    height: 2800px;
+}
+
+.td_1 {
+    position: absolute;
+    width: 420px;
+    height: 364px;
+    left: 207px;
+    top: 1730px;
+    background: url(Fernanda.svg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.td_2 {
+    position: absolute;
+    width: 620px;
+    height: 273px;
+    left: 660px;
+    top: 1714px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 143.4%;
+    /* or 26px */
+    color: #FFB700;
+}
+
+.td_3 {
+    position: absolute;
+    width: 690px;
+    height: 87px;
+    left: 200px;
+    top: 2285px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #063254;
+}
+
+.td_4 {
+    position: absolute;
+    top: 2100px;
+    left: 40px;
+}
+
+.black {
+    color: #000000;
 }

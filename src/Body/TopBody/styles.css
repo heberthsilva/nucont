@@ -41,9 +41,9 @@
 .botton_top_text {
     position: absolute;
     height: 16px;
-    width: 540px;
+    width: 560px;
     position: absolute;
-    left: 9px;
+    left: 18px;
     right: 9%;
     top: 27.78%;
     bottom: 27.78%;
@@ -58,7 +58,7 @@
 
 .button_top {
     height: 37px;
-    width: 560px;
+    width: 600px;
     left: 455px;
     top: 830px;
     border-radius: 20px;
