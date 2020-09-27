@@ -1,11 +1,28 @@
 import React from 'react';
+import { useForm } from 'react-hook-form';
 import './styles.css';
+import insert_db from '../DB/DB';
 
 
+type Profile = {
+    nome: string
+    email: string
 
+}
 
 
 function Header() {
+
+    const { register, handleSubmit } = useForm<Profile>()
+
+    const onSubmit = handleSubmit((data) => {
+
+        alert(JSON.stringify(data))
+
+        insert_db(data.nome, data.email)
+
+    })
+
     return (
         <div className="header-1">
             <h1 className="title">
@@ -24,7 +41,7 @@ function Header() {
             </h2>
 
 
-            <form>
+            <form onSubmit={onSubmit}>
 
                 <div className="div">
                     <div className="sub_div">
@@ -38,10 +55,10 @@ function Header() {
                         </text>
                     </div>
                     <div className="nome">
-                        <input className="box" type="text" id="nome" placeholder="Nome" required name="nome" />
+                        <input ref={register} className="box" type="text" id="nome" placeholder="Nome" required name="nome" />
                     </div>
                     <div className="email">
-                        <input className="box" type="text" id="email" placeholder="E-mail" required name="email" />
+                        <input ref={register} className="box" type="text" id="email" placeholder="E-mail" required name="email" />
                     </div>
                     <div className="botao">
                         <button type="submit" className="button" >
